@@ -1,154 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sundown Studio</title>
-    <!-- favicon logo  -->
-    <link rel="shortcut icon" href="./asset/Sundown_Favicon.png" type="image/x-icon">
-    <!-- css link  -->
-    <link rel="stylesheet" href="style.css">
-    <!-- tailwindCss & DaisyUI cdn Link  -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- locomotive css cdn link  -->
+    <link rel="shortcut icon" href="./asset/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-    
-    
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="fixed-img"></div>
-    <div id="main">
-        <header>
-            <!-- page 1 -->
-            <div class="min-h-[100vh] w-[100%] bg-[#EEEAE3] relative px-[2vw]">
-                <nav class="py-[2vw] w-[100%] flex items-center justify-between">
-                    <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15c2_Sundown%20logo.svg" alt="">
-                    <div class="gap-[2vw] flex">
-                        <div class="nav-a px-5 py-2 border border-[#8a8a8a89] rounded-[50px] font-medium text-[#000000bb] text-[18px] relative hover:text-white overflow-hidden"><a class="relative z-[9]" href="#">Work</a></div>
-                        <div class="nav-a px-5 py-2 border border-[#8a8a8a89] rounded-[50px] font-medium text-[#000000bb] text-[18px] relative hover:text-white overflow-hidden"><a class="relative z-[9]" href="#">Studio</a></div>
-                        <div class="nav-a px-5 py-2 border border-[#8a8a8a89] rounded-[50px] font-medium text-[#000000bb] text-[18px] relative hover:text-white overflow-hidden"><a class="relative z-[9]" href="#">Contact</a></div>
-                        
-                    </div>
-                </nav>
-                <!-- center  -->
-                <div id="center" class="min-h-[65vh] w-[100%]  flex items-end justify-between border-b border-[#8a8a8a89] pb-[2vw]">
-                    <div id="left" class="">
-                        <h3 class="w-[30vw] text-[1.7em] font-[500] font-[neue] leading-[2vw] text-black">Sundown is a multi-disciplinary studio focused on creating unique, end-to-end experiences and environments.</h3>
-                    </div>
-                    <div id="right">
-                        <h1 class="text-[10vw] leading-[8vw] text-right font-[neue] text-black">SPACES <br> THAT <br> INSPIRE</h1>
-                    </div>
-                </div>
-                <!-- hero shape -->
-                <div id="hero-shape" class="absolute w-[42vw] h-[32vw]  right-0 top-[70vh]">
-                    <div id="hero1" class="bg-[#FE320A] rounded-l-full h-[100%] w-[100%] blur-xl absolute"></div>
-                    <div id="hero2" class="bg-[#FE320A] rounded-[50%] h-[30vw] w-[30vw] blur-xl absolute"></div>
-                    <div id="hero3" class="bg-[#FE320A] rounded-[50%] h-[30vw] w-[30vw] blur-xl absolute"></div>
-                </div>
-                <!-- hero video section  -->
-                <video autoplay loop muted class="rounded-[20px] mt-[5vw] w-[100%] relative object-cover" src="./asset/c72af10b.mp4"></video>
-            </div>
-        </header>
-
-        <main class="bg-[#EEEAE3]">
-            <!-- page2 -->
-            <div id="page2" class="min-h-[65vh]  w-[100%]">
-                <div id="moving-text">
-                    <div id="con">
-                        <h1>EXPERIENCES</h1>
-                        <div id="gola" class="h-[50px] w-[50px] rounded-[50%] bg-[#FE320A]"></div>
-                        <h1>CONTENT</h1>
-                        <div id="gola" class="h-[50px] w-[50px] rounded-[50%] bg-[#FE320A]"></div>
-                        <h1>ENVIRONMENTS</h1>
-                        <div id="gola" class="h-[50px] w-[50px] rounded-[50%] bg-[#FE320A]"></div>
-                        </div>
-                        <div id="con">
-                        <h1>EXPERIENCES</h1>
-                        <div id="gola" class="h-[50px] w-[50px] rounded-[50%] bg-[#FE320A]"></div>
-                        <h1>CONTENT</h1>
-                        <div id="gola" class="h-[50px] w-[50px] rounded-[50%] bg-[#FE320A]"></div>
-                        <h1>ENVIRONMENTS</h1>
-                        <div id="gola" class="h-[50px] w-[50px] rounded-[50%] bg-[#FE320A]"></div>
-                        </div>
-                        <div id="con">
-                        <h1>EXPERIENCES</h1>
-                        <div id="gola" class="h-[50px] w-[50px] rounded-[50%] bg-[#FE320A]"></div>
-                        <h1>CONTENT</h1>
-                        <div id="gola" class="h-[50px] w-[50px] rounded-[50%] bg-[#FE320A]"></div>
-                        <h1>ENVIRONMENTS</h1>
-                        <div id="gola" class="h-[50px] w-[50px] rounded-[50%] bg-[#FE320A]"></div>
-                    </div>
-                </div>
-
-            </div>
-            <!-- page bottom  -->
-            <div id="page2-bottom" class="relative  flex items-center justify-between p-[4vw] font-[neue]">
-                <h1 class="text-[4vw] w-[60%] leading-tight z-[9] ">We are a group of design- <br> driven, goal-focused creators, <br> producers, and designers <br> who believe that the details<br> make all the difference.</h1>
-                <div id="page-part2" class="w-[20%] ">
-                    <img class="w-[100%] rounded-[15px]" src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15d1_Holding_thumb-p-500.jpg" alt="">
-                    <p class="text-[1.1vw] font-[poppins] leading-tight pt-[2vw]">We love to create, we love to solve, we love to collaborate, and we love to turn amazing ideas into reality. We’re here to partner with you through every step of the process and know that relationships are the most important things we build.</p>
-                </div>
-                <div id="gooey" class="h-[30vw] w-[30vw] absolute rounded-[50%] bg-gradient-to-r from-[#FE320A] to-[#fe5b0a] ml-80 blur-lg top-0 left-0">
-                </div>
-            </div>
-            <!-- page3 -->
-            <div id="page3" class="min-h-[100vh] w-[100%] py-[4vw]">
-               <div id="elem-container">
-
-                    <div  data-images="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1700_Copy%20of%20220429_NIKE4558_Nike_Las_Vegas_NFL_Draft_Beauty_Edited_Select_11.webp" id="elem" class="elem h-[150px] w-[100%] relative flex items-center px-[2vw] overflow-hidden">
-                        <div id="overlay" class="h-[100%] w-[100%] bg-orange-400 absolute left-0 -top-[100%]"></div>
-                        <h2 class="text-[3vw] font-[neue] text-black relative z-[9]">50th Anniversary</h2>
-                    </div>
-
-                    <div id="elem" class="elem h-[150px] w-[100%] relative border-t border-black flex items-center px-[2vw] overflow-hidden" data-images="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b163d_Copy%20of%20DSC04086.webp">
-                        <div id="overlay" class="h-[100%] w-[100%] bg-orange-400 absolute left-0 -top-[100%]"></div>
-                        <h2 class="text-[3vw] font-[neue] text-black relative z-[9]">NYFW Popup</h2>
-                    </div>
-
-                    <div id="elem" class="elem h-[150px] w-[100%] relative border-t border-black flex items-center px-[2vw] overflow-hidden" data-images="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b16c5_Copy%20of%20Nike_Soho_AMD21_0781_LORES.webp">
-                        <div id="overlay" class="h-[100%] w-[100%] bg-orange-400 absolute left-0 -top-[100%]"></div>
-                        <h2 class="text-[3vw] font-[neue] text-black relative z-[9]">AIR FORCE 12021</h2>
-                    </div>
-
-                    <div id="elem" class="elem h-[150px] w-[100%] relative border-t border-black flex items-center px-[2vw] overflow-hidden" data-images="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b163b_Copy-of-IMG_1180.webp">
-                        <div id="overlay" class="h-[100%] w-[100%] bg-orange-400 absolute left-0 -top-[100%]"></div>
-                        <h2 class="text-[3vw] font-[neue] text-black relative z-[9]">SOHO NYC</h2>
-                    </div>
-
-                    <div id="elem" class="elem h-[150px] w-[100%] relative border-t border-black flex items-center px-[2vw] overflow-hidden" data-images="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b16f4_Copy%20of%20Nike_Soho_50th_SU22_FL1_6176.webp">
-                        <div id="overlay" class="h-[100%] w-[100%] bg-orange-400 absolute left-0 -top-[100%]"></div>
-                        <h2 class="text-[3vw] font-[neue] text-black relative z-[9]">SOHO 2024</h2>
-                    </div>
-
-                    <div id="elem" class="elem h-[150px] w-[100%] relative border-t border-b border-black flex items-center px-[2vw] overflow-hidden" data-images="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1733_Nike_HOI_50th_SU22_FL1_5388.webp">
-                        <div id="overlay" class="h-[100%] w-[100%] bg-orange-400 absolute left-0 -top-[100%]"></div>
-                        <h2 class="text-[3vw] font-[neue] text-black relative z-[9]">Play New Kidvision</h2>
-                    </div>
-
-               </div>
-            </div>
-        </main>
-        <footer></footer>
-
-
+    <div id="loader">
+        <h1>ENVIRONMENTS</h1>
+        <h1>EXPERIENCES</h1>
+        <h1>CONTENT</h1>
+    </div>
+    <div id="fixed-image">
 
     </div>
-    <!-- js link  -->
-    <script src="script.js"></script>
-    <!-- locomotive js link  -->
+    <div id="main">
+
+        <div id="page1">
+            <nav>
+                <img src="https://uploads-ssl.webflow.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15c2_Sundown%20logo.svg"
+                    alt="">
+                <div id="nav-part2">
+                    <h4><a href="#">Work</a></h4>
+                    <h4><a href="#">Studio</a></h4>
+                    <h4><a href="#">Contact</a></h4>
+                </div>
+                <h3>Menu</h3>
+            </nav>
+            <div id="center">
+                <div id="left">
+                    <h3>Sundown is a multi-disciplinary studio focused on creating unique, end-to-end experiences and
+                        environments.</h3>
+                </div>
+                <div id="right">
+                    <h1>SPACES <br>
+                        THAT <br>
+                        INSPIRE</h1>
+                </div>
+
+            </div>
+            <div id="hero-shape">
+                <div id="hero-1"></div>
+                <div id="hero-2"></div>
+                <div id="hero-3"></div>
+            </div>
+            <video autoplay loop muted src="./asset/c72af10b.mp4"></video>
+        </div>
+        <div id="page2">
+            <div id="moving-text">
+                <div class="con">
+                    <h1>EXPERIENCES</h1>
+                    <div id="gola"></div>
+                    <h1>CONTENT</h1>
+                    <div id="gola"></div>
+                    <h1>ENVIRONMENTS</h1>
+                    <div id="gola"></div>
+                </div>
+                <div class="con">
+                    <h1>EXPERIENCES</h1>
+                    <div id="gola"></div>
+                    <h1>CONTENT</h1>
+                    <div id="gola"></div>
+                    <h1>ENVIRONMENTS</h1>
+                    <div id="gola"></div>
+                </div>
+                <div class="con">
+                    <h1>EXPERIENCES</h1>
+                    <div id="gola"></div>
+                    <h1>CONTENT</h1>
+                    <div id="gola"></div>
+                    <h1>ENVIRONMENTS</h1>
+                    <div id="gola"></div>
+                </div>
+            </div>
+            <div id="page2-bottom">
+                <h1>We are a group of design- driven, goal-focused creators,  producers, and designers who
+                    believe that the details  make all the difference.</h1>
+                <div id="bottom-part2">
+                    <img src="https://uploads-ssl.webflow.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15d1_Holding_thumb-p-500.jpg"
+                        alt="">
+                    <p>We love to create, we love to solve, we love to collaborate, and we love to turn amazing ideas
+                        into reality. We’re here to partner with you through every step of the process and know that
+                        relationships are the most important things we build.</p>
+                </div>
+            </div>
+            <div id="gooey">
+
+            </div>
+        </div>
+        <div id="page3">
+            <div id="elem-container">
+                <div id="elem1" class="elem"
+                    data-image="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b163b_Copy-of-IMG_1180.webp">
+                    <div class="overlay"></div>
+                    <h2>Makers Studio HOI</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b170d_AM704059.webp">
+                    <div class="overlay"></div>
+                    <h2>50th Anniversary</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1733_Nike_HOI_50th_SU22_FL1_5388.webp">
+                    <div class="overlay"></div>
+                    <h2>NYFW Popup</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b16f4_Copy%20of%20Nike_Soho_50th_SU22_FL1_6176.webp">
+                    <div class="overlay"></div>
+                    <h2>Air Force 1 2021</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b16c5_Copy%20of%20Nike_Soho_AMD21_0781_LORES.webp">
+                    <div class="overlay"></div>
+                    <h2>SOHO NYC</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1698_Copy%2520of%2520Nike_Soho_Play-New-Kids_10-27-21_1950-p-1600.webp">
+                    <div class="overlay"></div>
+                    <h2>SOHO 2023</h2>
+                </div>
+                <div class="elem"
+                data-image="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b16c5_Copy%20of%20Nike_Soho_AMD21_0781_LORES.webp">
+                <div class="overlay"></div>
+                    <h2>Play New Kidvision</h2>
+                </div>
+            </div>
+        </div>
+        <div id="page4">
+            <h4>
+               <img class="img" src="./asset/icon.png" alt=""> WHO WE WORK WITH</h4>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15ff_Nike.svg" alt="">
+                        <h5>Retained Production support across retail and events in NY, CHI, LA. Creative Design, Design Management, Production/Project Management, and execution of work from concept to installation across the Country.</h5>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1600_Converse.svg" alt="">
+                        <h5>Creative Concepting, Design, Design Management, Project Management, and execution of work from concept to installation across the Country. Cross functional communication and management of third party partners.</h5>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15fd_Arc%E2%80%99teryx.svg" alt="">
+                        <h5>Retained Production support across retail and events in NY, CHI, LA. Creative Design, Design Management, Production/Project Management, and execution of work from concept to installation across the Country.</h5>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15fe_Hunter.svg" alt="">
+                        <h5>Retained Production support across retail and events in NY, CHI, LA. Creative Design, Design Management, Production/Project Management, and execution of work from concept to installation across the Country.</h5>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15fd_Arc%E2%80%99teryx.svg" alt="">
+                        <h5>Retained Production support across retail and events in NY, CHI, LA. Creative Design, Design Management, Production/Project Management, and execution of work from concept to installation across the Country.</h5>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1601_MediaLink.svg" alt="">
+                        <h5>Retained Production support across retail and events in NY, CHI, LA. Creative Design, Design Management, Production/Project Management, and execution of work from concept to installation across the Country.</h5>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1602_AfterPay.svg" alt="">
+                    <h5>Retained Production support across retail and events in NY, CHI, LA. Creative Design, Design Management, Production/Project Management, and execution of work from concept to installation across the Country.</h5>
+                </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="page5">
+
+        </div>
+        <div id="full-scr">
+            <div id="full-div1">
+                
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer-div">
+
+        </div>
+        <h1>Sundown</h1>
+        <div id="footer-bottom">
+
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
